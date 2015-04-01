@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.8",
+    "gulp-stylus": "^2.0.1",
+    "laravel-elixir": "*",
+    "laravel-elixir-stylus": "^0.2.12"
+  }
+}

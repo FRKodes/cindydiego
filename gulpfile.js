@@ -1,4 +1,5 @@
 var elixir = require('laravel-elixir');
+// require('laravel-elixir-stylus');
 require('laravel-elixir-stylus');
 
 /*
@@ -19,7 +20,9 @@ require('laravel-elixir-stylus');
 elixir(function(mix) {
    mix.stylus(['icons-font.styl', 'main.styl'])
       .styles([
-      	'public/css/app.css',
+      	'public/css/bootstrap.min.css',
+      	'public/css/buki-font.css',
+      	'public/css/slick.css',
       	'public/css/main.css'
       	],'public/css/all.min.css', 'public/css')
       // .scripts(["public/js/custom.js"],'public/js/custom.min.js', 'public/js')

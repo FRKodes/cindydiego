@@ -1,2 +1,529 @@
+.manus
+	font-family 'Pinyon Script', cursive
+text4d = #4d4d4d
+golden = #CBA447
+.centered
+	text-align center
+.bold
+	font-weight bold
+.lg-timer
+	display none
+.link
+	color #2AABE4
+	text-decoration underline
 body
-	background red
+	background white
+	// font-family 'Source Serif Pro', serif
+	padding-top 80px
+	.navbar-default
+		background-color white
+		border-color transparent
+		height 70px
+		.navbar-header
+			text-align center
+			height 70px
+			a.navbar-brand
+				float none
+				font-size 4em
+				height 60px
+				margin 10px auto 0 auto
+				overflow hidden
+				padding 0
+				position absolute
+				width 60px
+		.navbar-toggle
+			border-color transparent
+			border-radius 0
+			margin-top 30px
+			padding 0
+			.icon-bar
+				background-color golden
+		.navbar-collapse
+		.navbar-form
+			border-color transparent
+		.navbar-collapse
+			background-color rgba(white, .9)
+			padding-top 20px
+			.nav>li
+				text-align center
+				margin 20px 0
+				a
+					color golden
+					font-size 1.2em
+					font-weight bold
+					text-transform uppercase
+		.navbar-nav>.active>a
+		.navbar-nav>.active>a:focus
+		.navbar-nav>.active>a:hover
+			background-color none
+		.navbar-nav>.active>a
+			background-color transparent
+	.ghost
+		background-color white
+		display none
+		height 100px
+		width 100%
+	h1
+		font-size 3.2em
+		margin-bottom .5em
+		text-align center
+	h2
+		color golden
+		font-size 1.7em
+		text-align center
+	.slider
+		border 5px solid gray
+		display block
+		height auto
+		overflow hidden
+		position relative
+		width 100%
+		.fade-container
+			overflow hidden
+			display block
+			height auto
+			width 100%
+			.slick-slide
+				height auto
+				overflow hidden
+				img
+					display block
+					height auto
+					float left
+					width 100%
+			.slick-prev
+			.slick-next
+				position absolute
+				top 45%
+				color golden
+				background-color transparent
+				border none
+				font-size 2em
+			.slick-prev
+				left 0
+			.slick-next
+				right 0
+				
+			
+			
+	.welcome
+		font-size 1.3em
+		margin-top 20px
+		text-align center
+		.left
+		.right
+			color golden
+			font-size 1.2em
+	.story
+		font-size 1.3em
+		margin 10px auto 30px auto
+		position relative
+		text-align center
+		span
+			border-bottom 1px solid golden
+			border-top 1px solid golden
+			padding 5px 0
+	.social
+		color #BDBDBD
+		float none
+		height auto
+		margin 0 auto
+		margin-top 40px
+		width 300px
+		figure
+			display inline-block
+			height auto
+			overflow hidden
+			padding 0
+			padding-top 0px
+			vertical-align middle
+			width 60px
+		.tag
+			display inline-block
+			height auto
+			margin 0
+			padding 0
+			vertical-align middle
+			.hashtag
+				color black
+				font-size 1.6em
+				font-weight bold
+	.timer
+		background-color gray
+		color white
+		margin 30px 0
+		padding 20px 0
+		text-align center
+		width 100%
+		.title
+			text-transform uppercase
+			font-size 1.2em
+		.block
+			border 2px solid white
+			border-radius 50%
+			display block
+			height 112px
+			margin 15px auto
+			width 112px
+			.number
+				font-size 4em
+				line-height 1em
+				margin-top 16px
+			.text
+				font-size 1em
+	/*recomendaciones*/
+	.recomendaciones
+		border-top 1px solid golden
+		border-bottom 1px solid golden
+		text-align center
+		font-size 2.4em
+		margin-top 20px
+	.panel-group
+		margin-top 25px
+	.panel
+		border none
+		border-bottom 1px solid golden
+		figure
+			text-align center
+		.panel-heading
+			background-color transparent
+		.item
+			text-align center
+			color black
+			height auto
+			overflow hidden
+			margin-bottom 40px
+			.title
+				color golden
+			.text
+				a
+					color #2AABE4
+					text-decoration underline
+			figure
+				padding 0
+				margin 0
+				a
+					display block
+					width 100%
+					height auto
+					&:hover
+						cursor pointer
+	/*RSVP*/
+	.phrase
+		margin-top 20px
+		padding 0 20px
+	input.form-control
+	textarea.form-control
+		background-color #F2F2F2
+		border-color #E6E6E6
+		border-radius 2px
+	
+	textarea.form-control
+		resize none
+	
+	input.submit-btn
+		background-color golden
+		color white
+		font-size 1.1em
+	/*Mesa de regalos*/
+	
+	footer
+		color text4d
+		height auto
+		overflow hidden
+		padding-bottom 50px
+		.event-title
+			font-size 2.4em
+			text-align center
+			span.icon-06
+			p.manus
+				display inline-block
+			span.icon-06
+				font-size 1.3em
+				vertical-align middle
+		ul.navbar-nav
+			font-size .8em
+			list-style none
+			margin 0
+			padding 0
+			text-align center
+			li
+				display inline-block
+				text-transform uppercase
+				margin-left 5px
+				&:first-of-type
+					margin-left none
+				a
+					color text4d
+					display block
+		.brandtelier
+			float none
+			height 100px
+			margin 0px auto 0 auto
+			padding 0
+			width 142px
+			a
+				color #65C7C6
+				display block
+				font-size 10em
+				height 100%
+				line-height .2em
+				width 100%
+@media screen and (min-width:480px)
+	body
+		h1
+			font-size 4.4em
+		.welcome
+			font-size 2em
+			.left
+			.right
+				font-size 1.2em
+		.story
+			font-size 1.8em
+			margin-bottom 45px
+		.social
+			margin-bottom 30px
+			margin-top 40px
+		.blocks-container
+			width 260px
+			height auto
+			display block
+			margin 0 auto
+			.block
+				display inline-block
+				margin-left 10px
+		footer
+			height auto
+			ul.navbar-nav
+				font-size .9em
+				li
+					margin-left 20px
+					&:first-of.type
+						margin-left none
+@media screen and (min-width:768px)
+	.sm-timer
+		display none
+	.lg-timer
+		display block
+	body
+		background-color #F2F2F2
+		padding-top 110px
+		.ghost
+			display block
+		.navbar-default
+			border-color transparent
+			height 110px
+			.container
+				margin 0 auto
+				padding 0
+				width 720px
+				.navbar-header
+					height 70px
+					text-align center
+					a.navbar-brand
+						float none
+						margin 35px 0 0 -30px
+						left 50%
+						padding 0
+					.nav>li
+						text-align center
+						margin 20px 0
+						a
+							color golden
+							font-size 1.2em
+							font-weight bold
+							text-transform uppercase
+				.navbar-nav>.active>a
+				.navbar-nav>.active>a:focus
+				.navbar-nav>.active>a:hover
+					background-color none
+				.navbar-nav>.active>a
+					background-color transparent
+				.navbar-collapse
+					background-color transparent
+					.nav
+						width 720px
+						margin-top -45px
+						li
+							margin-left 30px
+							&:first-of-type
+								margin-left 0
+						.mesa
+							margin-left 85px
+		.main-container
+			-webkit-box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.46);
+			-moz-box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.46);
+			box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.46);
+			margin-top -100px
+			position relative
+			z-index 2
+			background-color white
+			p
+				padding-left 40px
+				padding-right 40px
+			.container
+				width 650px
+				.form-group.first-line
+					width 50%
+					float left
+					&:first-of-type
+						margin-right 5%
+						width 45%
+				.form-group
+					.submit-btn
+						width 300px
+						margin 0 auto
+						padding 10px 0
+						height 50px
+						font-size 1.4em
+		h1
+			font-size 5em
+			margin-bottom 0
+			padding-top 20px
+		.recomendaciones
+			width 400px
+			margin 0 auto
+		.slider
+			width 90%
+			margin 0 auto
+		.panel-group
+			margin-top 50px
+		.panel
+			width 90%
+			margin 0 auto
+			.item
+				width 50%
+				float left
+				margin-bottom 40px
+				&.salon
+					height 140px
+				.title
+					color golden
+				.text
+					a
+						color #2AABE4
+						text-decoration underline
+				figure
+					padding 0
+					margin 0
+					a
+						display block
+						width 100%
+						height auto
+						&:hover
+							cursor pointer
+		footer
+			height auto
+			width 720px
+			margin 0 auto
+			padding-bottom 60px
+			.event-title
+				width 40%
+				text-align left
+				float left
+				span.icon-06
+					font-size 2em
+			ul.navbar-nav
+				width 370px
+				display block
+				float right
+				padding 10px 0 0
+				margin 0
+				li
+					display inline-block
+					margin-left 11px
+			.brandtelier
+				float right
+				height 60px
+				margin -30px 0 0
+@media screen and (min-width:992px)
+	body
+		.blocks-container
+			width 700px
+			.block
+				display inline-block
+				margin-left 70px
+				&:first-of-type
+					margin-left 0
+		.panel-group
+			margin-bottom 50px
+		footer
+			height auto
+			width 970px
+			margin 0 auto
+			.event-title
+				width 40%
+				text-align left
+				span.icon-06
+				p.manus
+					display inline-block
+				span.icon-06
+					font-size 2em
+			ul.navbar-nav
+				width 510px
+				float right
+				padding-top 10px
+				li
+					display inline-block
+					margin-left 30px
+					font-size 1.2em
+			.brandtelier
+				float right
+				height 60px
+				margin -20px 0 0 0
+				a
+					color #65C7C6
+					display block
+					font-size 8em
+					height 100%
+					line-height .2em
+					width 100%
+@media screen and (min-width:1200px)
+	body
+		.navbar-default
+			.container
+				width 800px
+				.navbar-header
+					a.navbar-brand
+						float none
+						font-size 7em
+						height 100px
+						left 50%
+						margin 5px 0 0 -50px
+						padding 0
+						width 100px
+				.navbar-collapse
+					width 800px
+					.nav
+						width 800px
+						.mesa
+							margin-left 160px
+		footer
+			width 1140px
+			height 200px
+			.event-title
+				width 40%
+				text-align left
+				span.icon-06
+				p.manus
+					display inline-block
+				span.icon-06
+					font-size 2em
+			ul.navbar-nav
+				width 565px
+				li
+					display inline-block
+					margin-left 30px
+					font-size 1.4em
+			.brandtelier
+				float right
+				width 125px
+				height 60px
+				margin -20px 0 0 0
+				a
+					color #65C7C6
+					display block
+					font-size 8em
+					height 100%
+					line-height .2em
+					width 100%
