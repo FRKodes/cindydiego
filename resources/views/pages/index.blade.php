@@ -37,10 +37,12 @@
 		</p>
 		
 		<p>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam velit, quia, beatae atque, blanditiis aliquid tenetur exercitationem architecto laborum dolore voluptates ullam praesentium! Esse aliquam distinctio cupiditate animi alias, neque.
-			<br><br>
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores explicabo vero modi debitis nihil. Amet in, vitae similique molestias enim magni itaque ipsam fuga iusto, obcaecati, fugit repellendus vel blanditiis.
+			La casualidad no existe, ella tenía que ir a Tapalpa ese fin de semana asi como él tenía que llevar a Gin Bouquet... y lo demás ya es historia, parte de una historia muy singular y especial que hoy continúa para algo mas especial aún.
 		</p>
+
+		<p>Los esperamos este 12 de Septiembre del 2015 en el Valle de Guadalupe para nuestra Boda.</p>
+		
+		<p>Cynthia &amp; Diego.</p>
 
 		<div class="social">
 			<figure><img src="images/icono-instagram.jpg" alt="Logo Instagram"></figure>
