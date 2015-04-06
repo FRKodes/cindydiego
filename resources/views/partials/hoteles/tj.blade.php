@@ -1,12 +1,12 @@
 <div class="panel panel-default">
   <div class="panel-heading">
     <h4 class="panel-title">
-      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#hotelesTj">
         + HOTELES TIJUANA
       </a>
     </h4>
   </div>
-  <div id="collapseOne" class="panel-collapse collapse">
+  <div id="hotelesTj" class="panel-collapse collapse">
     <div class="panel-body">
       
       <div class="item">

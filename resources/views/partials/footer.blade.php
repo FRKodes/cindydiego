@@ -1,7 +1,4 @@
-
-<div class="sm-timer">
-	@include('partials.timer')
-</div>
+<div class="sm-timer" id="sm-timer"></div>
 
 <div class="event-title">
 	<span class="icon-06"></span>

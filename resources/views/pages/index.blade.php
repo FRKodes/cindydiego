@@ -50,7 +50,7 @@
 			</div>
 		</div>
 		
-		<div class="lg-timer">@include('partials.timer')</div>
+		<div class="lg-timer" id="lg-timer"></div>
 
 	</div>
 

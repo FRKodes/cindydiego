@@ -14,7 +14,7 @@
 		<p class="centered">Palacio de Hierro</p>
 		<p class="centered"><a href="http://www.miregalopara.com" target="_blank" title="Mi regalo para...">www.miregalopara.com</a></p>
 
-		<div class="lg-timer">@include('partials.timer')</div>
+		<div class="lg-timer" id="lg-timer"></div>
 		
 	</div>
 @stop

@@ -25,6 +25,11 @@ elixir(function(mix) {
       	'public/css/slick.css',
       	'public/css/main.css'
       	],'public/css/all.min.css', 'public/css')
-      // .scripts(["public/js/custom.js"],'public/js/custom.min.js', 'public/js')
-      .version(['public/css/all.min.css', 'public/js/custom.min.js']);
+      .scripts([
+      	'public/js/jquery-2.1.3.min.js',
+      	'public/js/bootstrap.min.js',
+      	'public/js/slick.min.js',
+      	'public/js/custom.js'
+      	],'public/js/custom-scripts.min.js', 'public/js')
+      .version(['public/css/all.min.css', 'public/js/custom-scripts.min.js']);
 });

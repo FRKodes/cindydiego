@@ -1,5 +1,5 @@
 <?php namespace App\Http\Controllers;
-
+use Mail;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
@@ -20,5 +20,10 @@ class PagesController extends Controller {
 	}
 	public function rsvp(){
 		return View('pages.rsvp');
+	}
+	public function sendmail(){
+		Mail::send('emails.contacto', [], function($message){
+			$message->to('frkalderon@gmail.com')->subject('CindyBouquet Boda');
+		});
 	}
 }

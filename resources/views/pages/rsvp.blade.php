@@ -16,9 +16,9 @@
 		
 		<div class="container">
 			
-			{!! Form::open() !!}
+			{!! Form::open(['url'=>'sendmail','id'=>'contactForm']) !!}
 				<div class="form-group first-line">
-					{!! Form::input('text', 'name', null, ['placeholder'=>'*Nombre', 'class'=>'form-control']) !!}
+					{!! Form::input('text', 'name', null, ['placeholder'=>'*Nombre', 'class'=>'form-control', 'maxlength'=>'70', 'data-validate'=>'required|minLength[10]']) !!}
 				</div>
 				<div class="form-group first-line">
 					{!! Form::input('text', 'email', null, ['placeholder'=>'Correo', 'class'=>'form-control']) !!}
@@ -35,12 +35,15 @@
 					{!! Form::textarea('message', null, ['placeholder'=>'Mensaje de felicitación o comentario', 'class'=>'form-control'])!!}
 				</div>
 				<div class="form-group">
-					{!! Form::submit('Enviar', ['class'=>'form-control submit-btn']) !!}
+					{!! Form::submit('Enviar', ['class'=>'form-control submit-btn']) !!} <br>
+					<div class="alert_fields">Por favor llena los campos marcados.</div>
 				</div>
+
+				<div class="sent_mail_alert">Gracias!<br>Tu respuesta ha sido enviada con éxito.</div>
 			{!! Form::close() !!}
 		</div>
 		
-		<div class="lg-timer">@include('partials.timer')</div>
+		<div class="lg-timer" id="lg-timer"></div>
 
 	</div>
 @stop
