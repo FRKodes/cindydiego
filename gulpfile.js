@@ -31,5 +31,5 @@ elixir(function(mix) {
       	'public/js/slick.min.js',
       	'public/js/custom.js'
       	],'public/js/custom-scripts.min.js', 'public/js')
-      .version(['public/css/all.min.css', 'public/js/custom-scripts.min.js']);
+      .version(['public/css/all.min.css', 'public/js/custom-scripts.min.js', 'public/favicon.png']);
 });
