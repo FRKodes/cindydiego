@@ -158,19 +158,24 @@ body
 		.title
 			text-transform uppercase
 			font-size 1.2em
-		.block
-			border 2px solid white
-			border-radius 50%
+		.blocks-container
 			display block
-			height 112px
-			margin 15px auto
-			width 112px
-			.number
-				font-size 4em
-				line-height 1em
-				margin-top 16px
-			.text
-				font-size 1em
+			height auto
+			margin 0 auto
+			width 260px
+			.block
+				border 2px solid white
+				border-radius 50%
+				display inline-block
+				height 112px
+				margin 10px 0 0 10px
+				width 112px
+				.number
+					font-size 4em
+					line-height 1em
+					margin-top 16px
+				.text
+					font-size 1em
 	/*recomendaciones*/
 	.recomendaciones
 		border-top 1px solid golden
@@ -370,6 +375,13 @@ body
 								margin-left 0
 						.mesa
 							margin-left 85px
+		.timer
+			.blocks-container
+				width 610px
+				.block
+					margin-left 50px
+					&:first-of-type
+						margin-left 0
 		.main-container
 			-moz-box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.46);
 			-webkit-box-shadow: 0px 0px 19px 6px rgba(0,0,0,0.46);
