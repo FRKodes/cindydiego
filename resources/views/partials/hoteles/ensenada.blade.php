@@ -15,8 +15,8 @@
       		Tel.: (646)17443310, 1744320<br>
       		Clave de reservación:<br>
       		1500775<br>
-      		Precio habitación: <br>
-      		sencilla $2100, doble $2150 <br>
+      		{{-- Precio habitación: <br>
+      		sencilla $2100, doble $2150 <br> --}}
       		<a href="https://www.lasrosas.com/" target="_blank" title="Visitar Sitio Web Las Rosas">Visitar Sitio Web</a>
       	</p>
       	<figure><a target="_blank" title="Visitar Sitio Web Las Rosas" href="https://www.lasrosas.com/"><img src="images/logo-hotel-lasrosas.jpg" alt="logo hotel Las Rosas"></a></figure>
@@ -27,8 +27,8 @@
       		Tel.: (646)178 15 03<br>
       		Clave de reservación:<br>
       		T5BOK<br>
-      		Precio habitación: <br>
-      		sencilla $1437, doble $1797 <br>
+      		{{-- Precio habitación: <br>
+      		sencilla $1437, doble $1797 <br> --}}
       		<a href="http://www.bajainn.com/hotel-cortez/" target="_blank" title="Visitar Sitio Web ">Visitar Sitio Web</a>
       	</p>
       	<figure><a target="_blank" title="Visitar Sitio Web Hotel Cortez" href="http://www.bajainn.com/hotel-cortez/"><img src="images/logo-hotel-cortez.jpg" alt="logo Hotel Cortez"></a></figure>
@@ -39,8 +39,8 @@
       		Tel.: (646) 176-0901<br>
       		Clave de reservación:<br>
       		"Boda Cinthia &amp; Diego"<br>
-      		Precio habitación: <br>
-      		sencilla $2142, doble $2284 <br>
+      		{{-- Precio habitación: <br>
+      		sencilla $2142, doble $2284 <br> --}}
       		<a href="http://www.hotelcorona.com.mx/" target="_blank" title="Visitar Sitio Web ">Visitar Sitio Web</a>
       	</p>
       	<figure><a target="_blank" title="Visitar Sitio Web Hotel Corona" href="http://www.hotelcorona.com.mx/"><img src="images/logo-hotel-corona.jpg" alt="logo Hotel Corona"></a></figure>
@@ -51,8 +51,8 @@
       		Tel.: 01 646 175 00 00<br>
       		Clave de reservación:<br>
       		Pendiente <br>
-      		Precio habitación: <br>
-      		Sencilla $80 dlls, Doble $105 dlls <br>
+      		{{-- Precio habitación: <br>
+      		Sencilla $80 dlls, Doble $105 dlls <br> --}}
       		<a href="http://www.hotelmisionsantaisabel.com/contact.php" target="_blank" title="Visitar Sitio Web Hotel Coral">Visitar Sitio Web</a>
       	</p>
       	<figure><a target="_blank" title="Visitar Sitio Web Hotel Coral" href="http://www.hotelmisionsantaisabel.com/contact.php"><img src="images/logo-hotel-coral-and-marina.jpg" alt="logo hotel Coral"></a></figure>
@@ -63,8 +63,8 @@
       		Tel.: 646 178 3616<br>
       		Clave de reservación:<br>
       		Pendiente <br>
-      		Precio habitación: <br>
-      		Sencilla $80 dlls, Doble $105 dlls <br>
+      		{{-- Precio habitación: <br>
+      		Sencilla $80 dlls, Doble $105 dlls <br> --}}
       		<a href="http://www.hotelmisionsantaisabel.com/contact.php" target="_blank" title="Visitar Sitio Web Hotel Santa Isabel">Visitar Sitio Web</a>
       	</p>
       	<figure><a target="_blank" title="Visitar Sitio Web Hotel Santa Isabel" href="http://www.hotelmisionsantaisabel.com/contact.php"><img src="images/logo-hotel-misionsantaisabel.jpg" alt="logo hotel Santa Isabel"></a></figure>
@@ -75,8 +75,8 @@
       		Tel.: 01 646 176 1901<br>
       		Clave de reservación:<br>
       		Pendiente <br>
-      		Precio habitación: <br>
-      		$900 <br>
+      		{{-- Precio habitación: <br>
+      		$900 <br> --}}
       		<a href="http://www.snhotelcasino.com/" target="_blank" title="Visitar Sitio Web Hotel San Nicolás">Visitar Sitio Web</a>
       	</p>
       	<figure><a target="_blank" title="Visitar Sitio Web Hotel San Nicolás" href="http://www.snhotelcasino.com/"><img src="images/logo-hotel-sannicolas.jpg" alt="logo hotel San Nicolás"></a></figure>
