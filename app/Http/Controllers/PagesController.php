@@ -23,7 +23,7 @@ class PagesController extends Controller {
 	}
 	public function sendmail(){
 		Mail::send('emails.contacto', [], function($message){
-			$message->to('frkalderon@gmail.com')->subject('CindyBouquet Boda');
+			$message->to('cindybouquetboda@hotmail.com')->subject('CindyBouquet Boda');
 		});
 	}
 }

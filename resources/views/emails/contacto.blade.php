@@ -11,7 +11,7 @@
                         <table width='700' height='300' bgcolor='#000' cellpadding='0' cellspacing='0'>
                             <tbody>
                                 <tr height='100'> 
-                                    <td bgcolor='#00A4E4' style='color:#fff' colspan='3'>
+                                    <td bgcolor='#f2f2f2' style='color:#fff' colspan='3'>
                                         #CindyBouquetBoda
                                     </td> 
                                 </tr>
@@ -35,7 +35,7 @@
                                         </table>
                                     </td>
                                 </tr>
-                                <tr bgcolor='#00A4E4'>
+                                <tr bgcolor='#f2f2f2'>
                                     <td colspan='3'>
                                         <p style='font-family:Arial, Helvetica, sans-serif, Trebuchet MS;font-size:x-small;color:#fff;'>
                                             AVISO DE CONFIDENCIALIDAD: Este mensaje es confidencial y/o puede contener informaci&oacute;n privilegiada.
