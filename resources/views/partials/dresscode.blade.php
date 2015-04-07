@@ -8,7 +8,8 @@
 	</div>
 	
 	<div id="collapseDress" class="panel-collapse collapse">
-		
+		<h2 class="centered">Riguroso formal</h2>
+		<p class="centered">Sugerencias de vestimenta</p>
 		<div class="panel-body dresscode">
 			<figure><img src="images/dresscode_01.jpg" alt="Dress code 01"></figure>
 			<figure><img src="images/dresscode_04.jpg" alt="Dress code 04"></figure>

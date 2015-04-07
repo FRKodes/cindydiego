@@ -23,7 +23,7 @@
 
     </div>
 
-    <p class="centered">
+    <p class="centered size-m">
     	En <a href="http://www.zonaturistica.com/atractivos-turisticos-en/5/ensenada-baja-california.html" target="_blank" class="link" title="Más recomendaciones">esta página</a> podrás encontrar todos los atractivos de Ensenada y Valle de Guadalupe tanto hospedaje, restaurantes y sitios que visitar.
     </p>
     
