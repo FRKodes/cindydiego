@@ -10,5 +10,8 @@
 		</section>
 		<footer>@include('partials.footer')</footer>
 		@include('partials.scripts')
+		@if($_ENV['APP_ENV'] == 'production')
+			@include('partials.GoogleAnalytics')
+		@endif
 	</body>
 </html>
