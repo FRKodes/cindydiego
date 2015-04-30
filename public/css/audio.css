@@ -1,0 +1,42 @@
+#backgroundaudio {
+  display: block;
+  position: fixed;
+  z-index: 9999999;
+  top: -43px;
+  left: 5px;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+#backgroundaudio:hover {
+  top: 0;
+  cursor: pointer;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+#backgroundaudio audio {
+  background: transparent;
+  padding: 5px;
+  display: table-cell;
+  vertical-align: middle;
+  height: 43px;
+  z-index: 9999;
+}
+#backgroundaudio i {
+  background: #f2f2f2 url(/images/volume.png) no-repeat center center;
+  border-radius: 50%;
+  display: block;
+  float: none;
+  font-size: 40px;
+  height: 30px;
+  margin-top: 25px;
+  margin-left: 10px;
+  padding: 5px;
+  width: 30px;
+  z-index: 9999999;
+}

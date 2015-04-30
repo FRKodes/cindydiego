@@ -16,3 +16,5 @@ Route::get('recomendaciones', 'PagesController@recomendaciones');
 Route::get('mesa-de-regalos', 'PagesController@mesa');
 Route::get('rsvp', 'PagesController@rsvp');
 Route::post('sendmail', 'PagesController@sendmail');
+Route::get('mapas', 'PagesController@mapas');
+Route::get('programa', 'PagesController@programa');

@@ -17,13 +17,18 @@ body
 	background white
 	// font-family 'Source Serif Pro', serif
 	padding-top 80px
+	.navbar-fixed-top .navbar-collapse
+		max-height 1000px
 	.navbar-default
 		background-color white
 		border-color transparent
 		height 70px
+		.container
+			height auto
+			overflow hidden
 		.navbar-header
-			text-align center
 			height 70px
+			text-align center
 			a.navbar-brand
 				float none
 				font-size 4em
@@ -45,7 +50,12 @@ body
 			border-color transparent
 		.navbar-collapse
 			background-color rgba(white, .9)
-			padding-top 20px
+			height auto
+			overflow hidden
+			&.in
+				border-bottom 1px solid #ccc
+			.navbar-nav
+				height auto
 			.nav>li
 				text-align center
 				margin 20px 0
@@ -54,6 +64,8 @@ body
 					font-size 1.2em
 					font-weight bold
 					text-transform uppercase
+					&:hover
+						background-color #ccc
 		.navbar-nav>.active>a
 		.navbar-nav>.active>a:focus
 		.navbar-nav>.active>a:hover
@@ -105,9 +117,6 @@ body
 				left 0
 			.slick-next
 				right 0
-				
-			
-			
 	.welcome
 		font-size 1.3em
 		margin-top 20px
@@ -178,6 +187,63 @@ body
 					margin-top 16px
 				.text
 					font-size 1em
+	/*MAPAS*/
+	#croquis
+	#templo
+	#lacetto
+		figure
+			display block
+			margin auto
+			margin-top 20px
+			text-align center
+			width 100%
+			img
+				display block
+				height auto
+				width 100%
+				border 5px solid #ccc
+	
+		a.btn-blue-mapa
+			background-color #2AABE4
+			border 1px solid #016FBC
+			color white
+			padding 10px 20px
+			margin-top 30px
+			text-decoration none
+			display inline-block
+	.w-item
+		border 1px solid #B3B3B3
+		text-align center
+		&:nth-child(5)
+		&:nth-child(6)
+		&:nth-child(7)
+		&:nth-child(8)
+		&:nth-child(9)
+		&:nth-child(10)
+			display none
+		.day-title
+			background-color #B3B3B3
+			color white
+			padding 10px 0
+		.desc
+			padding-top 30px
+			display block
+			font-size 1.4em
+			.temp
+				color #25ACE3
+				display block
+			.desc-w
+				color black
+				display block
+				color black
+			figure.icon
+				width 80px
+				padding 0
+				margin 0
+		&.days
+			background-color transparent
+		
+		
 	/*recomendaciones*/
 	.recomendaciones
 		border-top 1px solid golden
@@ -327,6 +393,9 @@ body
 			.block
 				display inline-block
 				margin-left 10px
+		.w-item
+			width 400px
+			margin 0 auto
 		footer
 			height auto
 			ul.navbar-nav
@@ -345,20 +414,21 @@ body
 		padding-top 110px
 		.ghost
 			display block
+			
 		.navbar-default
 			border-color transparent
 			height 110px
 			.container
 				margin 0 auto
 				padding 0
-				width 720px
+				width 768px
 				.navbar-header
 					height 70px
 					text-align center
 					a.navbar-brand
 						float none
 						left 50%
-						margin 35px 0 0 -30px
+						margin 35px 0 0 -35px
 						padding 0
 					.nav>li
 						text-align center
@@ -376,15 +446,21 @@ body
 					background-color transparent
 				.navbar-collapse
 					background-color transparent
+					.nav>li a:hover
+						border-bottom 4px solid #f2f2f2
+						background none
+					.nav>li a
+						font-size 1em
 					.nav
-						width 720px
-						margin-top -45px
+						width 768px
+						margin -45px auto 0 auto
 						li
-							margin-left 30px
+							margin-left 0px
 							&:first-of-type
 								margin-left 0
 						.mesa
 							margin-left 85px
+			
 		.timer
 			.blocks-container
 				width 610px
@@ -430,6 +506,34 @@ body
 			font-size 5em
 			margin-bottom 0
 			padding-top 20px
+		/*MAPAS*/
+		#croquis
+		#templo
+		#lacetto
+			.item
+				width 100%
+				figure
+					display block
+					margin auto
+					margin 20px auto 0 auto
+					text-align center
+					width 595px
+					img
+						display block
+						height auto
+						width 100%
+		.panel .item.mapas
+			width 480px
+			margin 0 auto
+			float none
+			a.btn-blue-mapa
+				background-color #2AABE4
+				border 1px solid #016FBC
+				color white
+				padding 10px 20px
+				margin-top 30px
+				text-decoration none
+				display inline-block
 		.recomendaciones
 			width 400px
 			margin 0 auto
@@ -509,6 +613,12 @@ body
 						display block
 						height auto
 						width 100%
+		.panel .item.mapas
+			width 100%
+			margin 0
+			.w-item
+				width 250px
+				display inline-block
 		footer
 			height auto
 			width 970px
@@ -544,7 +654,7 @@ body
 	body
 		.navbar-default
 			.container
-				width 800px
+				width 1000px
 				.navbar-header
 					a.navbar-brand
 						float none
@@ -555,11 +665,13 @@ body
 						padding 0
 						width 100px
 				.navbar-collapse
-					width 800px
+					width 1000px
 					.nav
-						width 800px
+						width 1000px
 						.mesa
 							margin-left 160px
+				.navbar-collapse .nav>li a
+					font-size 1.3em
 		footer
 			width 1140px
 			height 200px

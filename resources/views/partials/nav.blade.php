@@ -11,9 +11,11 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="/" title="Home">Home</a></li>
+        <li><a href="/" title="Home">Home</a></li>
         <li><a href="/recomendaciones">Recomendaciones</a></li>
+        <li><a href="/mapas">Mapas</a></li>
         <li class="mesa"><a href="/mesa-de-regalos">Mesa de regalos</a></li>
+        <li><a href="/programa">Programa</a></li>
         <li><a href="/rsvp">RSVP</a></li>
       </ul>
     </div>

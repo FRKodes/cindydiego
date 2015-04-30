@@ -21,6 +21,12 @@ class PagesController extends Controller {
 	public function rsvp(){
 		return View('pages.rsvp');
 	}
+	public function mapas(){
+		return View('pages.mapas');
+	}
+	public function programa(){
+		return View('pages.programa');
+	}
 	public function sendmail(){
 		Mail::send('emails.contacto', [], function($message){
 			$message->to('cindybouquetboda@hotmail.com')->subject('CindyBouquet Boda');

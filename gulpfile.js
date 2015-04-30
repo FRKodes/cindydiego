@@ -23,6 +23,7 @@ elixir(function(mix) {
       	'public/css/bootstrap.min.css',
       	'public/css/buki-font.css',
       	'public/css/slick.css',
+            'public/css/audio.css',
       	'public/css/main.css'
       	],'public/css/all.min.css', 'public/css')
       .scripts([

@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f3dfe211c2f3283b97a3d4dbe02ebfa8",
+    "hash": "928b4d9807dc234042ac841658a0fe70",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -65,6 +65,50 @@
                 "preload"
             ],
             "time": "2015-01-26 22:06:19"
+        },
+        {
+            "name": "cmfcmf/openweathermap-php-api",
+            "version": "v2.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cmfcmf/OpenWeatherMap-PHP-Api.git",
+                "reference": "6a9ecab96f4fbc7cc0907e5772f04c180c605f08"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cmfcmf/OpenWeatherMap-PHP-Api/zipball/6a9ecab96f4fbc7cc0907e5772f04c180c605f08",
+                "reference": "6a9ecab96f4fbc7cc0907e5772f04c180c605f08",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Cmfcmf\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Flach (cmfcmf)",
+                    "email": "cmfcmf.flach@gmail.com",
+                    "homepage": "http://cmfcmf.github.io",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A php api to parse weather data from OpenWeatherMap.org. This api tries to normalise and abstract the data and remove inconsistencies.",
+            "homepage": "https://github.com/cmfcmf/OpenWeatherMap-PHP-Api",
+            "keywords": [
+                "OpenWeatherMap",
+                "weather",
+                "weather api"
+            ],
+            "time": "2015-03-21 13:42:03"
         },
         {
             "name": "danielstjules/stringy",

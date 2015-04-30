@@ -4,6 +4,7 @@
 		@include('partials.styles')
 	</head>
 	<body>
+		@include('partials.audio')
 		<header>@include('partials.nav')</header>
 		<section class="container">
 			@yield('content')
