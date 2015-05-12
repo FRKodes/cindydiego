@@ -22,6 +22,10 @@ $(document).ready(function(){
 	    }
 	});
 
+	$('.icon-volume-up').on('click', function(){
+		$('#backgroundaudio').toggleClass('top0');
+	});
+
 	$('.fade-container').slick({
 	  infinite: true,
 	  speed: 500,
