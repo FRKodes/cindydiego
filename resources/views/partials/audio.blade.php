@@ -1,5 +1,5 @@
 <div id="backgroundaudio">
-	<audio autoplay="" controls="" loop="" preload="">
+	<audio autoplay="true" controls="true" loop="true" preload="true">
 		<source src="./music/sugar.mp3" type="audio/mpeg"></source>
 		Your browser does not support the audio element.
 	</audio>
