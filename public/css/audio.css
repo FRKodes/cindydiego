@@ -3,6 +3,7 @@
   position: fixed;
   z-index: 9999999;
   top: -43px;
+  top: 0px;
   left: 5px;
   -webkit-transition: all 1s ease-in-out;
   -moz-transition: all 1s ease-in-out;
