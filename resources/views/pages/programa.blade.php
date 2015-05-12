@@ -10,11 +10,16 @@
 			Programa
 		</div>
 		  
-	  <p>
-	  	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus earum quia excepturi aliquid, quisquam eligendi, magnam iusto voluptatum illo doloribus fugiat odit nisi pariatur odio cum quaerat illum nihil esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequuntur eligendi veritatis adipisci, necessitatibus cupiditate blanditiis error iusto, tempora placeat? Voluptatem ipsa eum distinctio, voluptas molestiae consequuntur repellat laudantium tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae adipisci, accusantium delectus quos ad repudiandae quod, nostrum perspiciatis totam numquam veniam facere itaque necessitatibus eaque sit possimus? Odio, iure, inventore.
+	  <p class="programa">
+	  	<b>Ceremonia religiosa</b> <br> <br>
+	  	Sábado 12 de Septiembre 2015 <br>
+	  	Parroquia María auxiliadora <br>
+	  	4:00 p.m.
 	  </p>
-	  <p>
-	  	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus earum quia excepturi aliquid, quisquam eligendi, magnam iusto voluptatum illo doloribus fugiat odit nisi pariatur odio cum quaerat illum nihil esse. Lorem ipsum dolor sit amet, consectetur adipisicing elit. In consequuntur eligendi veritatis adipisci, necessitatibus cupiditate blanditiis error iusto, tempora placeat? Voluptatem ipsa eum distinctio, voluptas molestiae consequuntur repellat laudantium tempora? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae adipisci, accusantium delectus quos ad repudiandae quod, nostrum perspiciatis totam numquam veniam facere itaque necessitatibus eaque sit possimus? Odio, iure, inventore.
+	  <p class="programa">
+	  	<b>Recepción</b> <br><br>
+	  	Viñedos La Cetto <br>
+	  	Al término de la misa
 	  </p>
 	  
 
