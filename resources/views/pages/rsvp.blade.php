@@ -18,7 +18,7 @@
 			
 			{!! Form::open(['url'=>'sendmail','id'=>'contactForm']) !!}
 				<div class="form-group first-line">
-					{!! Form::input('text', 'name', null, ['placeholder'=>'*Nombre', 'class'=>'form-control', 'maxlength'=>'70', 'data-validate'=>'required|minLength[10]']) !!}
+					{!! Form::input('text', 'name', null, ['placeholder'=>'*Nombre', 'class'=>'form-control', 'maxlength'=>'70', 'data-validate'=>'required']) !!}
 				</div>
 				<div class="form-group first-line">
 					{!! Form::input('text', 'email', null, ['placeholder'=>'Correo', 'class'=>'form-control']) !!}
